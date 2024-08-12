@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-s1 {
+    display: flex;
+    margin-left: 10%;
+    border: solid rgb(58, 55, 55) 2px;
+    border: none;
+}
+
+.section-s1 p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.section-s1 p:hover {
+    margin: 10px;
+    background-color: rgb(166, 148, 148);
+    /* border: solid rgb(58, 55, 55) 2px; */
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.nav_s3 {
+    display: flex;
+    align-items: center;
+}
+
+.nav_signup {
+    background-color: black;
+    border: solid black 2px;
+    border-radius: 50px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.bar{
+    display: none;
+}
+.profile{
+    display: none;
+}
+.section2 {
+    text-align: center;
+    margin: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.section3 {
+    /* text-align: center; */
+    margin: 30px;
+    display: flex;
+    /* align-items: center; */
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section3 p {
+    margin: 10px;
+}
+.section3 :hover{
+    border-bottom: solid rgb(18, 16, 16) 2px;
+    /* transition: 3s; */
+}
+
+.section4 {
+    margin: 5px;
+    padding: 3px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    margin-left: 20%;
+    align-items: center;
+
+}
+
+.section4 input {
+    border:none;
+    width: 100%;
+    font-size: 16px;
+  
+}
+.section4 p{
+    background-color: #1cbd77;
+    color: black;
+    padding: 10px;
+    border-radius:20px ;
+}
+.image-section img{
+    width:100% ;
+    height: 500px;
+}
+.image-section{
+    background-color:#D5DEF8;
+    margin: 50px;
+    width: 80%;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 130px;
+    border-radius: 10px;
+    position: relative;
+}
+.image-section_s1{
+    position: absolute;
+    width: 300px;
+    left: 150px;
+    top: 100px;
+    padding: 10px;
+    font-size: 25px;
+    color: #301D49;
+
+}
+.img1{
+    background-color:white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.img2{
+    background-color: #52327C;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 30px;
+}
+.section-5_image{
+    margin-left: 130px;
+    padding: 20px;
+    /* margin:20px ; */
+}
+.section-5_image p{
+    margin-top: 10px;
+}
+.adv-images_s1{
+    margin-left: 130px;
+    display: flex;
+    
+    
+}
+.adv-images_s1 img{
+    height: 300px;
+    width: 280px;
+    justify-content: space-between;
+    margin-left: 25px;
+    border-radius: 10px;
+    /*  */
+}
+.adv-images_s1{
+    position:relative ;
+
+}
+.d1{
+    margin-left: 119px;
+    top: 20px;
+    display: flex;
+    /* position: absolute; */
+   
+}
+.d4{
+    margin-left: 180px;   
+}
+.recom-container{
+    display: flex;
+    margin-left: 130px;
+    
+}
+.C_tour{
+    flex-basis: 15%;
+    justify-content: center;
+    margin: 10px;
+    /* margin-left: 130px; */
+    width: 100%;
+    gap: 20px;
+    
+}
+.C_tour img{
+    width: 290px;
+    height: 280px;
+    border-radius: 10px;
+
+
+}
+.footer_s1 img
+{
+    width: 45%;
+    height: 500px;
+    margin: 20px;
+    
+}
+.footer_s1{
+    background-color: gainsboro;
+    margin-left: 130px;
+    margin-right: 130px;
+    position: relative;
+   
+   
+}
+.footer_s2{
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    left: 800px;
+    height: 300px;
+    
+}
+.fl{
+    width: fit-content;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: center;
+}
+.footer-s3{
+    display: flex;
+    margin-top: 50px;
+    background-color: #FAF1ED;
+   
+}
+.footer-s3 li{
+    list-style: none;
+    padding: 5px;
+    margin-left: 130px;
+}
+.footer-s4_1{
+    margin: 5px;
+    padding: 5px;
+    margin-left:125px;
+}
+.footer-s4_1 a{
+color: black;
+}
+.footer-s4{
+    background-color: #FAF1ED;
+    margin: 0;
+}
+@media screen and (max-width:600px) {
+    .section-s1 ,.nav_s3 ,.nav_signup{
+        display: none;
+    }
+    .bar{
+        display: block;
+        right: 0;
+    }
+    
+    .logo{
+        justify-content: center;
+    }
+    .profile{
+        display: block;
+    }
+    .image-section,.footer_s1{
+        width: 100%;
+        margin-left: 10%;
+    }
+    /* *{
+        margin-left: 0;
+    } */
+     .recom-container{
+        margin-left:50px ;
+     }
+}
